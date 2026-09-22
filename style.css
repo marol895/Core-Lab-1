@@ -1,45 +1,29 @@
-@font-face {
-     font-family: 'bauhaus_93regular';
-    src: url('fonts/bauhaus_93_regular.woff2') format('woff2'),
-         url('fonts/bauhaus_93_regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+#firstpoem {
+    margin-top: 3em;
+    margin-left: 15em;
+    border-left: double; 2px solid black;
+    padding-left: 10px;
+    border-right: double; 2px solid black;
 }
-body {
-background-color: #eca0e0;
+
+#secondpoem {
+    margin-top: -1em;
+    margin-left: 15em;
+    padding-left: 10px;
 }
-div {
-    padding-top: 20px;
-    width: 600px;
-    min-height: 777px;
-    background-color: #fff4e0;
-    border: 1px solid #000;
-    margin: 10px;
-    padding: 60px;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: justify;
+
+#thirdpoem {
+    margin-top: -1em;
+    margin-left: 15em;
+    padding-left: 10px;
 }
-#My2ndParagraph {
-    text-align: right;
-    font-weight: bold;
-    width: 50ch;
-    margin-left: auto;
-    margin-right: 0;
-    font-family: "lores-12", sans-serif;
+#box1 {
+    padding-left: 10px;
+    border-right: 1px solid black;
 }
-#thex {
-    font-family: "lores-12", sans-serif;
-    font-weight: bold;
-    font-size: 5em;
-}
-#theA {
-    font-family: "bauhaus_93regular", sans-serif;
-    font-weight: bold;
-    font-size: 5em;
-}
-#My1stParagraph, #My3rdParagraph {
-   line-height: 36px;
-}
-#My1stParagraph {
-    margin-top: 30px;
+#box {
+    border-left: double; 2px solid black;
+    padding-left: 10px;
+    border-right: double; 2px solid black;
+    border-bottom: double; 2px solid black;
 }
